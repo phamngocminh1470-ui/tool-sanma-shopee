@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: shopee-voucher-hunter
+    runtime: docker
+    plan: free
+    region: singapore
+    envVars:
+      - key: AUTO_SCAN_ENABLED
+        value: "true"
+      - key: DEFAULT_SCAN_INTERVAL_MINUTES
+        value: "15"
+      - key: AUTO_START_TUNNEL
+        value: "false"

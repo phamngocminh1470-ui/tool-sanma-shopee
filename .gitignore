@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build artifacts
+dist/
+frontend/dist/
+
+# Python cache & virtualenv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.pytest_cache/
+
+# Executables & Large Tools
+tools/cloudflared.exe
+*.exe
+
+# Local data & environment
+.env
+backend/data/public_link.txt
+backend/data/backups/
+scratch/
+.vscode/
